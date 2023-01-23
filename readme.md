@@ -15,3 +15,5 @@ This project uses Google Cloud VM, ChatGPT and Whatsapp to generate messages tha
 ![](machine.png)
 ![](bootdisk.png)
 ![](firewall.png)
+
+2. Now we will install Cinnamon desktop environment and set up Chrome RDP for our VM. To do this follow the steps mentioned in this [link](https://cloud.google.com/architecture/chrome-desktop-remote-on-compute-engine#cinnamon)
