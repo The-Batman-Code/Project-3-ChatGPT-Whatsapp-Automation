@@ -69,9 +69,9 @@ tmux kill-session
 
 ### Solution - 
 1. SSH into your Google Cloud VM from GCP Console
-2. Let's set the password for the user we are currently using. In Google Cloud username is your email without the @gmail.com part. Set password for this user using the command. Replace the word username with your username - 
+2. Let's set the password for the user we are currently using. In Google Cloud username is your email without the @gmail.com part. Set password for this user using the command. Replace the word user_name with your username - 
 ```
-sudo passwd username
+sudo passwd user_name
 ```
 3. Set the password. Well done✌️
 4. Now let's add your user in the list of sudoers. Become the root user by entering the following command - 
@@ -86,7 +86,7 @@ cd ../../etc
 ```
 sudo vim sudoers
 ```
-7. Press I to enter insert mode in Vim. Enter the following code just under the '%admin ALL=(ALL) ALL' line. Replace the word username with your username - 
+7. Press I to enter insert mode in Vim. Enter the following code just under the '%admin ALL=(ALL) ALL' line. Replace the word user_name with your username - 
 ```
 user_name ALL=(ALL)  ALL
 ```
