@@ -46,17 +46,57 @@ sudo apt-get install python3-tk python3-dev
 sudo vim message.py
 ```
 10. Copy the code given in script.py python file here in the repository and press I to enter insert mode in vim. Paste the code into the message.py python file. Enter the receiver's phone number, schedule time and your openAI access token in message.py file (You can get you openAI access token from [here](https://beta.openai.com/account/api-keys))
-11. We need the program to run even after we exit the RDP window that's why we will use tmux. Enter tmux into the terminal to enter the tmux window.
+11. To save message.py file and exit Vim editor, press Escape key and then type the following command from your keyboard - 
+```
+:wq
+```
+12. We need the program to run even after we exit the RDP window that's why we will use tmux. Enter tmux into the terminal to enter the tmux window.
 ```
 tmux
 ```
-12. Enter the following command to run the python file in the tmux window - 
+13. Enter the following command to run the python file in the tmux window - 
 ```
 python3 message.py
 ```
-13. To exit the tmux window press Ctrl + B and then D.
-14. Back to the terminal window hun?😏 Congrats. Now see the project run at your scheduled time. You can safely exit you Chrome RDP window also✌️.
-15. To kill the tmux process enter the following command in the terminal- 
+14. To exit the tmux window press Ctrl + B and then D.
+15. Back to the terminal window hun?😏 Congrats. Now see the project run at your scheduled time. You can safely exit you Chrome RDP window also✌️.
+16. To kill the tmux process enter the following command in the terminal- 
 ```
 tmux kill-session
 ```
+# Issues - 
+## 1. Cinnamon desktop will start asking for password after exiting RDP window or being inactive for some time.
+
+### Solution - 
+1. SSH into your Google Cloud VM from GCP Console
+2. Let's set the password for the user we are currently using. In Google Cloud username is your email without the @gmail.com part. Set password for this user using the command. Replace the word username with your username - 
+```
+sudo passwd username
+```
+3. Set the password. Well done✌️
+4. Now let's add your user in the list of sudoers. Become the root user by entering the following command - 
+```
+sudo su 
+```
+5. Navigate to the /etc folder using the following command - 
+```
+cd ../../etc
+```
+6. Now we will edit the sudoers file here. Enter the following command - 
+```
+sudo vim sudoers
+```
+7. Press I to enter insert mode in Vim. Enter the following code just under the '%admin ALL=(ALL) ALL' line. Replace the word username with your username - 
+```
+user_name ALL=(ALL)  ALL
+```
+8. Press the escape key, then type the following command from your keyboard - 
+```
+:wq!
+```
+9. Enter the following command - 
+```
+sudo apt update
+```
+10. Now you should be able to login using the password you had set earlier.
+
