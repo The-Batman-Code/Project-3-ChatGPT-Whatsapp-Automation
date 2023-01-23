@@ -101,3 +101,6 @@ sudo apt update
 10. Now you should be able to login using the password you had set earlier.
 
 # Warning 
+The VM configuration we are using is not covered under GCP free tier. The VM costs $13.4 at the time of writing this documentation. So after you are done having fun I would suggest you terminate your VM to avoid bill shock unless you can afford the cost😏. I am working to reduce the cost, till that time please bear with me.
+
+Keep working💪 Keep grinding😁 Keep enjoying👌
