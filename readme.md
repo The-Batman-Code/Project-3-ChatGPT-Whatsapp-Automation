@@ -56,3 +56,7 @@ python3 message.py
 ```
 13. To exit the tmux window press Ctrl + B and then D.
 14. Back to the terminal window hun?😏 Congrats. Now see the project run at your scheduled time. You can safely exit you Chrome RDP window also✌️.
+15. To kill the tmux process enter the following command in the terminal- 
+```
+tmux kill-session
+```
