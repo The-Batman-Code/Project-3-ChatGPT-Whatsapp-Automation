@@ -8,7 +8,7 @@ This project uses Google Cloud VM, ChatGPT and Whatsapp to generate messages tha
 1. Google Cloud Ubuntu VM using Cinnamon desktop environment
 2. Python with openai, schedule and pywhatkit libraries
 
-## Lets launch the project...yaay🥳-
+## Let's launch the project...yaay🥳-
 
 1. Login to your GCP account and create a VM with the following settings👇
 
