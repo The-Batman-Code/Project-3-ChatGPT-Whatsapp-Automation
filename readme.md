@@ -46,7 +46,7 @@ sudo apt-get install python3-tk python3-dev
 sudo vim message.py
 ```
 10. Copy the code given in script.py python file here in the repository and press I to enter insert mode in vim. Paste the code into the message.py python file. Enter the receiver's phone number, schedule time and your openAI access token in message.py file (You can get you openAI access token from [here](https://beta.openai.com/account/api-keys))
-11. We need the program to run even after we exit the rdp window that's why we will use tmux. Enter tmux into the terminal to enter the tmux window.
+11. We need the program to run even after we exit the RDP window that's why we will use tmux. Enter tmux into the terminal to enter the tmux window.
 ```
 tmux
 ```
