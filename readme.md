@@ -11,6 +11,7 @@ This project uses Google Cloud VM, ChatGPT and Whatsapp to generate messages tha
 ## Lets launch the project...yaay🥳-
 
 1. Login to your GCP account and create a VM with the following settings👇
+
 ![](machine.png)
 ![](bootdisk.png)
 ![](firewall.png)
