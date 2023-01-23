@@ -21,3 +21,7 @@ This project uses Google Cloud VM, ChatGPT and Whatsapp to generate messages tha
 
 ![](rdp.png)
 ![](rdppassword2.png)
+
+4. You will see a desktop screen like this👇
+
+![](desktop.png)
