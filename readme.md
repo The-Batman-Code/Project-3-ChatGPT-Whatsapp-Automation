@@ -20,4 +20,4 @@ This project uses Google Cloud VM, ChatGPT and Whatsapp to generate messages tha
 3. Click on this [link](https://remotedesktop.google.com/access) you will see your VM's name here. Click on it and enter your password that you set during the RDP setup process.
 
 ![](rdp.png)
-![](rdppassword.png)
+![](rdppassword2.png)
