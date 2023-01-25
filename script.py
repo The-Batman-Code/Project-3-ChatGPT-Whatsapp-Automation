@@ -34,7 +34,7 @@ def message():
     print(responses)  # For testing purposes
 
     pywhatkit.sendwhatmsg_instantly(
-        "Enter the receiver's phone number here", random.choice(responses), 20, True, 10)
+        "Enter the receiver's phone number here", random.choice(responses), 40, True, 10)
 
 
 def job():
