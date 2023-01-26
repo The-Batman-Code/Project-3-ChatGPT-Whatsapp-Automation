@@ -64,6 +64,12 @@ python3 message.py
 ```
 tmux kill-session
 ```
+
+# Another approach - 
+Instead of using tmux and keep our VM running for the whole day we can use the Startup Application which comes with Cinnamon desktop.
+1. Go to the left corner of Cinnamon desktop and click on the Cinnamon icon.
+2. Search for Startup Application in the search bar or look for it in preferences section.
+3.  
 # Issues - 
 ## 1. Cinnamon desktop will start asking for password after exiting RDP window or being inactive for some time.
 
