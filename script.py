@@ -36,6 +36,7 @@ def message():
     pywhatkit.sendwhatmsg_instantly(
         "Enter the receiver's phone number here", random.choice(responses), 40, True, 10)
 
+# message()
 # time.sleep(600)
 
 
