@@ -77,6 +77,7 @@ python3 /home/ksgcpcloud/script.py
 ```
 6. Set the startup delay as 10 seconds and click on add.
 7. Now we have two ways - 
+
         1. Enter the required time in the script.py and schedule the VM to run a few minutes before the required time and terminate a few minutes later
         2. Remove everything after time.sleep(600) in script.py and schedule the VM to run at the required time. Give it a few minutes and termimnate the VM.
 # Issues - 
