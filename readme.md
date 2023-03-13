@@ -73,7 +73,7 @@ Instead of using tmux and keep our VM running for the whole day we can use the S
 4. Enter whatever nane you want.
 5. In the command section enter the following command - 
 ```
-python3 /home/ksgcpcloud/script.py
+python3 /home/ksgcpcloud/message.py
 ```
 6. Set the startup delay as 10 seconds and click on add.
 7. Now we have two ways - 
